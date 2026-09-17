@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+	<update>
+		<name>Obersorbisch (hsb-DE)</name>
+		<description>Frontend (Website)-Übersetzung für Joomla! in Obersorbisch, Sprachcode hsb-DE.</description>
+		<element>hsb-DE</element>
+		<type>language</type>
+		<client>site</client>
+		<version>6.1.3</version>
+		<infourl title="Obersorbisch (hsb-DE) auf GitHub">https://github.com/webdesign-kutter/joomla-language-hsb-de</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://raw.githubusercontent.com/webdesign-kutter/joomla-language-hsb-de/main/hsb-DE_6.1.3.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>Thomas Kutter</maintainer>
+		<maintainerurl>http://www.webdesign-kutter.de</maintainerurl>
+		<targetplatform name="joomla" version="6\.[0-9]+" />
+	</update>
+</updates>
