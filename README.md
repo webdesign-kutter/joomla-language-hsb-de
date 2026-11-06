@@ -5,7 +5,7 @@ Frontend (Website)-Sprachpaket für Joomla! 6.x, Sprachcode `hsb-DE`.
 ## Installation
 
 1. In Joomla Backend: **System → Erweiterungen installieren**
-2. `hsb-DE_6.1.3.zip` hochladen und installieren
+2. `hsb-DE_6.2.0.zip` hochladen und installieren
 3. Unter **System → Website → Sprachen** eine neue Inhaltssprache anlegen (oder die bestehende „Obersorbisch" bearbeiten):
    - Sprach-Tag: `hsb-DE`
    - Bild: `hsb_de`
