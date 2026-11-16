@@ -5,19 +5,16 @@ Frontend (Website)-Sprachpaket für Joomla! 6.x, Sprachcode `hsb-DE`.
 ## Installation
 
 1. In Joomla Backend: **System → Erweiterungen installieren**
-2. `hsb-DE_6.2.0.1.zip` hochladen und installieren
+2. `hsb-DE_6.2.0.2.zip` hochladen und installieren
 3. Unter **System → Website → Sprachen** eine neue Inhaltssprache anlegen (oder die bestehende „Obersorbisch" bearbeiten):
    - Sprach-Tag: `hsb-DE`
    - Bild: `hsb_de`
 
-## Flagge manuell hochladen (einmalig, per FTP)
+## Flagge
 
-**Wichtig:** Die Flaggen-Datei wird bewusst NICHT automatisch durch das Paket installiert (siehe Hinweis in `install.xml`) — Joomla würde sonst bei jeder Aktualisierung dieses Pakets den kompletten, von allen Sprachen gemeinsam genutzten Flaggen-Ordner leeren.
+Die Flagge `hsb_de.gif` wird bei der Installation automatisch nach `media/mod_languages/images/` kopiert. Danach unter **System → Sprachen** beim Eintrag „Obersorbisch" im Feld „Bild" `hsb_de` wählen.
 
-Datei `hsb_de.gif` (liegt im Ordner `flagge/` dieses Repos und im ZIP) per FTP hochladen nach:
-```
-media/mod_languages/images/hsb_de.gif
-```
+**Achtung beim Deinstallieren:** Joomla löscht dabei den gesamten Ordner `media/mod_languages/images/` (alle Flaggen aller Sprachen), nicht nur `hsb_de.gif`. Vor dem Deinstallieren dieses Pakets den Ordner sichern. Die Flagge liegt zusätzlich im Ordner `flagge/` dieses Repos.
 
 ## Automatische Update-Benachrichtigung
 
